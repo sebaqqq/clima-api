@@ -7,9 +7,9 @@ import { CloudSun } from "lucide-react";
 
 function App() {
   const defaultLocation = {
-    latitude: 52.52,
-    longitude: 13.41,
-    name: "Berlín, Alemania",
+    latitude: -33.4489,
+    longitude: -70.6693,
+    name: "Santiago, Chile",
   };
 
   const { weatherData, hourlyData, loading, error, location, searchCity } =
