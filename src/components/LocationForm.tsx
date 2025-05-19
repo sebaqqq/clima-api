@@ -40,7 +40,7 @@ const LocationForm: React.FC<LocationFormProps> = ({
             value={city}
             onChange={(e) => setCity(e.target.value)}
             placeholder="Buscar ciudad..."
-            className="w-full px-4 py-2 pr-10 bg-gray-700 border border-gray-600 rounded-md text-gray-200 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+            className="w-full px-4 py-2 p-4 pr-10 bg-gray-700 border border-gray-600 rounded-md text-gray-200 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
           />
           <button
             type="submit"
